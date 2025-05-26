@@ -56,133 +56,133 @@ var lyr_BatasKecamatan_3 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/BatasKecamatan_3.png" /> Batas Kecamatan'
             });
-var format_TitikAirBersih_4 = new ol.format.GeoJSON();
-var features_TitikAirBersih_4 = format_TitikAirBersih_4.readFeatures(json_TitikAirBersih_4, 
+var format_JaringanJalanKudus_4 = new ol.format.GeoJSON();
+var features_JaringanJalanKudus_4 = format_JaringanJalanKudus_4.readFeatures(json_JaringanJalanKudus_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TitikAirBersih_4 = new ol.source.Vector({
+var jsonSource_JaringanJalanKudus_4 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_TitikAirBersih_4.addFeatures(features_TitikAirBersih_4);
-var lyr_TitikAirBersih_4 = new ol.layer.Vector({
+jsonSource_JaringanJalanKudus_4.addFeatures(features_JaringanJalanKudus_4);
+var lyr_JaringanJalanKudus_4 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_TitikAirBersih_4, 
-                style: style_TitikAirBersih_4,
-                popuplayertitle: 'Titik Air Bersih',
-                interactive: true,
-                title: '<img src="styles/legend/TitikAirBersih_4.png" /> Titik Air Bersih'
-            });
-var format_TitikPasar_5 = new ol.format.GeoJSON();
-var features_TitikPasar_5 = format_TitikPasar_5.readFeatures(json_TitikPasar_5, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TitikPasar_5 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_TitikPasar_5.addFeatures(features_TitikPasar_5);
-var lyr_TitikPasar_5 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_TitikPasar_5, 
-                style: style_TitikPasar_5,
-                popuplayertitle: 'Titik Pasar',
-                interactive: true,
-                title: '<img src="styles/legend/TitikPasar_5.png" /> Titik Pasar'
-            });
-var format_TitikPersampahan_6 = new ol.format.GeoJSON();
-var features_TitikPersampahan_6 = format_TitikPersampahan_6.readFeatures(json_TitikPersampahan_6, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TitikPersampahan_6 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_TitikPersampahan_6.addFeatures(features_TitikPersampahan_6);
-var lyr_TitikPersampahan_6 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_TitikPersampahan_6, 
-                style: style_TitikPersampahan_6,
-                popuplayertitle: 'Titik Persampahan',
-                interactive: true,
-                title: '<img src="styles/legend/TitikPersampahan_6.png" /> Titik Persampahan'
-            });
-var format_TitikHalte_7 = new ol.format.GeoJSON();
-var features_TitikHalte_7 = format_TitikHalte_7.readFeatures(json_TitikHalte_7, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TitikHalte_7 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_TitikHalte_7.addFeatures(features_TitikHalte_7);
-var lyr_TitikHalte_7 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_TitikHalte_7, 
-                style: style_TitikHalte_7,
-                popuplayertitle: 'Titik Halte',
-                interactive: true,
-                title: '<img src="styles/legend/TitikHalte_7.png" /> Titik Halte'
-            });
-var format_TitikTerminal_8 = new ol.format.GeoJSON();
-var features_TitikTerminal_8 = format_TitikTerminal_8.readFeatures(json_TitikTerminal_8, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_TitikTerminal_8 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_TitikTerminal_8.addFeatures(features_TitikTerminal_8);
-var lyr_TitikTerminal_8 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_TitikTerminal_8, 
-                style: style_TitikTerminal_8,
-                popuplayertitle: 'Titik Terminal',
-                interactive: true,
-                title: '<img src="styles/legend/TitikTerminal_8.png" /> Titik Terminal'
-            });
-var format_JaringanJalanKudus_9 = new ol.format.GeoJSON();
-var features_JaringanJalanKudus_9 = format_JaringanJalanKudus_9.readFeatures(json_JaringanJalanKudus_9, 
-            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_JaringanJalanKudus_9 = new ol.source.Vector({
-    attributions: ' ',
-});
-jsonSource_JaringanJalanKudus_9.addFeatures(features_JaringanJalanKudus_9);
-var lyr_JaringanJalanKudus_9 = new ol.layer.Vector({
-                declutter: false,
-                source:jsonSource_JaringanJalanKudus_9, 
-                style: style_JaringanJalanKudus_9,
+                source:jsonSource_JaringanJalanKudus_4, 
+                style: style_JaringanJalanKudus_4,
                 popuplayertitle: 'Jaringan Jalan Kudus',
                 interactive: true,
     title: 'Jaringan Jalan Kudus<br />\
-    <img src="styles/legend/JaringanJalanKudus_9_0.png" /> Jalan Arteri<br />\
-    <img src="styles/legend/JaringanJalanKudus_9_1.png" /> Jalan Kolektor<br />\
-    <img src="styles/legend/JaringanJalanKudus_9_2.png" /> Jalan Lokal<br />\
-    <img src="styles/legend/JaringanJalanKudus_9_3.png" /> Jalan Lingkungan<br />' });
+    <img src="styles/legend/JaringanJalanKudus_4_0.png" /> Jalan Arteri<br />\
+    <img src="styles/legend/JaringanJalanKudus_4_1.png" /> Jalan Kolektor<br />\
+    <img src="styles/legend/JaringanJalanKudus_4_2.png" /> Jalan Lokal<br />\
+    <img src="styles/legend/JaringanJalanKudus_4_3.png" /> Jalan Lingkungan<br />' });
+var format_TitikAirBersih_5 = new ol.format.GeoJSON();
+var features_TitikAirBersih_5 = format_TitikAirBersih_5.readFeatures(json_TitikAirBersih_5, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_TitikAirBersih_5 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_TitikAirBersih_5.addFeatures(features_TitikAirBersih_5);
+var lyr_TitikAirBersih_5 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_TitikAirBersih_5, 
+                style: style_TitikAirBersih_5,
+                popuplayertitle: 'Titik Air Bersih',
+                interactive: true,
+                title: '<img src="styles/legend/TitikAirBersih_5.png" /> Titik Air Bersih'
+            });
+var format_TitikPasar_6 = new ol.format.GeoJSON();
+var features_TitikPasar_6 = format_TitikPasar_6.readFeatures(json_TitikPasar_6, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_TitikPasar_6 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_TitikPasar_6.addFeatures(features_TitikPasar_6);
+var lyr_TitikPasar_6 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_TitikPasar_6, 
+                style: style_TitikPasar_6,
+                popuplayertitle: 'Titik Pasar',
+                interactive: true,
+                title: '<img src="styles/legend/TitikPasar_6.png" /> Titik Pasar'
+            });
+var format_TitikPersampahan_7 = new ol.format.GeoJSON();
+var features_TitikPersampahan_7 = format_TitikPersampahan_7.readFeatures(json_TitikPersampahan_7, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_TitikPersampahan_7 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_TitikPersampahan_7.addFeatures(features_TitikPersampahan_7);
+var lyr_TitikPersampahan_7 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_TitikPersampahan_7, 
+                style: style_TitikPersampahan_7,
+                popuplayertitle: 'Titik Persampahan',
+                interactive: true,
+                title: '<img src="styles/legend/TitikPersampahan_7.png" /> Titik Persampahan'
+            });
+var format_TitikHalte_8 = new ol.format.GeoJSON();
+var features_TitikHalte_8 = format_TitikHalte_8.readFeatures(json_TitikHalte_8, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_TitikHalte_8 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_TitikHalte_8.addFeatures(features_TitikHalte_8);
+var lyr_TitikHalte_8 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_TitikHalte_8, 
+                style: style_TitikHalte_8,
+                popuplayertitle: 'Titik Halte',
+                interactive: true,
+                title: '<img src="styles/legend/TitikHalte_8.png" /> Titik Halte'
+            });
+var format_TitikTerminal_9 = new ol.format.GeoJSON();
+var features_TitikTerminal_9 = format_TitikTerminal_9.readFeatures(json_TitikTerminal_9, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_TitikTerminal_9 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_TitikTerminal_9.addFeatures(features_TitikTerminal_9);
+var lyr_TitikTerminal_9 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_TitikTerminal_9, 
+                style: style_TitikTerminal_9,
+                popuplayertitle: 'Titik Terminal',
+                interactive: true,
+                title: '<img src="styles/legend/TitikTerminal_9.png" /> Titik Terminal'
+            });
 var group_BatasAdministrasi = new ol.layer.Group({
                                 layers: [lyr_BatasKabupaten_2,lyr_BatasKecamatan_3,],
                                 fold: "open",
                                 title: 'Batas Administrasi'});
 
-lyr_GoogleHybrid_0.setVisible(true);lyr_KabupatenKudus_1.setVisible(true);lyr_BatasKabupaten_2.setVisible(true);lyr_BatasKecamatan_3.setVisible(true);lyr_TitikAirBersih_4.setVisible(true);lyr_TitikPasar_5.setVisible(true);lyr_TitikPersampahan_6.setVisible(true);lyr_TitikHalte_7.setVisible(true);lyr_TitikTerminal_8.setVisible(true);lyr_JaringanJalanKudus_9.setVisible(true);
-var layersList = [lyr_GoogleHybrid_0,lyr_KabupatenKudus_1,group_BatasAdministrasi,lyr_TitikAirBersih_4,lyr_TitikPasar_5,lyr_TitikPersampahan_6,lyr_TitikHalte_7,lyr_TitikTerminal_8,lyr_JaringanJalanKudus_9];
+lyr_GoogleHybrid_0.setVisible(true);lyr_KabupatenKudus_1.setVisible(true);lyr_BatasKabupaten_2.setVisible(true);lyr_BatasKecamatan_3.setVisible(true);lyr_JaringanJalanKudus_4.setVisible(true);lyr_TitikAirBersih_5.setVisible(true);lyr_TitikPasar_6.setVisible(true);lyr_TitikPersampahan_7.setVisible(true);lyr_TitikHalte_8.setVisible(true);lyr_TitikTerminal_9.setVisible(true);
+var layersList = [lyr_GoogleHybrid_0,lyr_KabupatenKudus_1,group_BatasAdministrasi,lyr_JaringanJalanKudus_4,lyr_TitikAirBersih_5,lyr_TitikPasar_6,lyr_TitikPersampahan_7,lyr_TitikHalte_8,lyr_TitikTerminal_9];
 lyr_KabupatenKudus_1.set('fieldAliases', {'NAMA_DESA': 'Desa', 'NAMA_KEC': 'Kecamatan', 'NAMA_KAB': 'Kabupaten', 'NAMA_PROP': 'Provinsi', });
 lyr_BatasKabupaten_2.set('fieldAliases', {'NAMA_DESA': 'Desa', 'NAMA_KEC': 'Kecamatan', 'NAMA_KAB': 'Kabupaten', 'NAMA_PROP': 'Provinsi', });
 lyr_BatasKecamatan_3.set('fieldAliases', {'NAMA_DESA': 'Desa', 'NAMA_KEC': 'Kecamatan', 'NAMA_KAB': 'Kabupaten', 'NAMA_PROP': 'Provinsi', });
-lyr_TitikAirBersih_4.set('fieldAliases', {'Name': 'Titik Air Bersih', 'URL Gambar': 'Gambar', 'URL alamat': 'Alamat', });
-lyr_TitikPasar_5.set('fieldAliases', {'Name': 'Titik Pasar', 'URL Gambar': 'Gambar', 'URL Alamat': 'Alamat', });
-lyr_TitikPersampahan_6.set('fieldAliases', {'Name': 'Titik Persampahan', 'URL Gambar': 'Gambar', 'URL Alamat': 'Alamat', });
-lyr_TitikHalte_7.set('fieldAliases', {'Name': 'Titik Halte', 'descriptio': 'descriptio', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMo': 'altitudeMo', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', 'Gambar': 'Gambar', 'Alamat': 'Alamat', });
-lyr_TitikTerminal_8.set('fieldAliases', {'Name': 'Titik Terminal', 'Gambar': 'Gambar', 'Alamat': 'Alamat', });
-lyr_JaringanJalanKudus_9.set('fieldAliases', {'name': 'Jaringan Jalan', 'NAMRJL': 'Jaringan Jalan', 'Jaringan J': 'Jaringan Jalan', });
+lyr_JaringanJalanKudus_4.set('fieldAliases', {'name': 'Jaringan Jalan', 'NAMRJL': 'Jaringan Jalan', 'Jaringan J': 'Jaringan Jalan', });
+lyr_TitikAirBersih_5.set('fieldAliases', {'Name': 'Titik Air Bersih', 'URL Gambar': 'Gambar', 'URL alamat': 'Alamat', });
+lyr_TitikPasar_6.set('fieldAliases', {'Name': 'Titik Pasar', 'URL Gambar': 'Gambar', 'URL Alamat': 'Alamat', });
+lyr_TitikPersampahan_7.set('fieldAliases', {'Name': 'Titik Persampahan', 'URL Gambar': 'Gambar', 'URL Alamat': 'Alamat', });
+lyr_TitikHalte_8.set('fieldAliases', {'Name': 'Titik Halte', 'descriptio': 'descriptio', 'timestamp': 'timestamp', 'begin': 'begin', 'end': 'end', 'altitudeMo': 'altitudeMo', 'tessellate': 'tessellate', 'extrude': 'extrude', 'visibility': 'visibility', 'drawOrder': 'drawOrder', 'icon': 'icon', 'Gambar': 'Gambar', 'Alamat': 'Alamat', });
+lyr_TitikTerminal_9.set('fieldAliases', {'Name': 'Titik Terminal', 'Gambar': 'Gambar', 'Alamat': 'Alamat', });
 lyr_KabupatenKudus_1.set('fieldImages', {'NAMA_DESA': 'TextEdit', 'NAMA_KEC': 'TextEdit', 'NAMA_KAB': 'TextEdit', 'NAMA_PROP': 'TextEdit', });
 lyr_BatasKabupaten_2.set('fieldImages', {'NAMA_DESA': 'TextEdit', 'NAMA_KEC': 'TextEdit', 'NAMA_KAB': 'TextEdit', 'NAMA_PROP': 'TextEdit', });
 lyr_BatasKecamatan_3.set('fieldImages', {'NAMA_DESA': 'TextEdit', 'NAMA_KEC': 'TextEdit', 'NAMA_KAB': 'TextEdit', 'NAMA_PROP': 'TextEdit', });
-lyr_TitikAirBersih_4.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL alamat': 'TextEdit', });
-lyr_TitikPasar_5.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL Alamat': 'TextEdit', });
-lyr_TitikPersampahan_6.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL Alamat': 'TextEdit', });
-lyr_TitikHalte_7.set('fieldImages', {'Name': 'TextEdit', 'descriptio': 'TextEdit', 'timestamp': 'TextEdit', 'begin': 'TextEdit', 'end': 'TextEdit', 'altitudeMo': 'TextEdit', 'tessellate': 'TextEdit', 'extrude': 'TextEdit', 'visibility': 'TextEdit', 'drawOrder': 'TextEdit', 'icon': 'TextEdit', 'Gambar': 'TextEdit', 'Alamat': 'TextEdit', });
-lyr_TitikTerminal_8.set('fieldImages', {'Name': 'TextEdit', 'Gambar': 'TextEdit', 'Alamat': 'TextEdit', });
-lyr_JaringanJalanKudus_9.set('fieldImages', {'name': 'TextEdit', 'NAMRJL': 'TextEdit', 'Jaringan J': 'TextEdit', });
+lyr_JaringanJalanKudus_4.set('fieldImages', {'name': 'TextEdit', 'NAMRJL': 'TextEdit', 'Jaringan J': 'TextEdit', });
+lyr_TitikAirBersih_5.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL alamat': 'TextEdit', });
+lyr_TitikPasar_6.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL Alamat': 'TextEdit', });
+lyr_TitikPersampahan_7.set('fieldImages', {'Name': 'TextEdit', 'URL Gambar': 'TextEdit', 'URL Alamat': 'TextEdit', });
+lyr_TitikHalte_8.set('fieldImages', {'Name': 'TextEdit', 'descriptio': 'TextEdit', 'timestamp': 'TextEdit', 'begin': 'TextEdit', 'end': 'TextEdit', 'altitudeMo': 'TextEdit', 'tessellate': 'TextEdit', 'extrude': 'TextEdit', 'visibility': 'TextEdit', 'drawOrder': 'TextEdit', 'icon': 'TextEdit', 'Gambar': 'TextEdit', 'Alamat': 'TextEdit', });
+lyr_TitikTerminal_9.set('fieldImages', {'Name': 'TextEdit', 'Gambar': 'TextEdit', 'Alamat': 'TextEdit', });
 lyr_KabupatenKudus_1.set('fieldLabels', {'NAMA_DESA': 'no label', 'NAMA_KEC': 'no label', 'NAMA_KAB': 'no label', 'NAMA_PROP': 'no label', });
 lyr_BatasKabupaten_2.set('fieldLabels', {'NAMA_DESA': 'no label', 'NAMA_KEC': 'no label', 'NAMA_KAB': 'no label', 'NAMA_PROP': 'no label', });
 lyr_BatasKecamatan_3.set('fieldLabels', {'NAMA_DESA': 'no label', 'NAMA_KEC': 'no label', 'NAMA_KAB': 'no label', 'NAMA_PROP': 'no label', });
-lyr_TitikAirBersih_4.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL alamat': 'no label', });
-lyr_TitikPasar_5.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL Alamat': 'no label', });
-lyr_TitikPersampahan_6.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL Alamat': 'no label', });
-lyr_TitikHalte_7.set('fieldLabels', {'Name': 'no label', 'descriptio': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMo': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', 'Gambar': 'no label', 'Alamat': 'no label', });
-lyr_TitikTerminal_8.set('fieldLabels', {'Name': 'no label', 'Gambar': 'no label', 'Alamat': 'no label', });
-lyr_JaringanJalanKudus_9.set('fieldLabels', {'name': 'no label', 'NAMRJL': 'no label', 'Jaringan J': 'no label', });
-lyr_JaringanJalanKudus_9.on('precompose', function(evt) {
+lyr_JaringanJalanKudus_4.set('fieldLabels', {'name': 'no label', 'NAMRJL': 'no label', 'Jaringan J': 'no label', });
+lyr_TitikAirBersih_5.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL alamat': 'no label', });
+lyr_TitikPasar_6.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL Alamat': 'no label', });
+lyr_TitikPersampahan_7.set('fieldLabels', {'Name': 'no label', 'URL Gambar': 'no label', 'URL Alamat': 'no label', });
+lyr_TitikHalte_8.set('fieldLabels', {'Name': 'no label', 'descriptio': 'no label', 'timestamp': 'no label', 'begin': 'no label', 'end': 'no label', 'altitudeMo': 'no label', 'tessellate': 'no label', 'extrude': 'no label', 'visibility': 'no label', 'drawOrder': 'no label', 'icon': 'no label', 'Gambar': 'no label', 'Alamat': 'no label', });
+lyr_TitikTerminal_9.set('fieldLabels', {'Name': 'no label', 'Gambar': 'no label', 'Alamat': 'no label', });
+lyr_TitikTerminal_9.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
